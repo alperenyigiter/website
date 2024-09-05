@@ -1,0 +1,43 @@
+/* Responsive Intro Section */
+
+@media screen and (max-width: 600px) {
+    #intro {
+        padding: 30% 5%;
+        justify-content: flex-start !important;
+    }
+    
+    #intro > .row {
+        flex-direction: column;
+    }
+    
+    #intro .col:first-child > h1 {
+        font-size: 30px;
+        line-height: unset;
+    }
+    
+    #intro .col:first-child > p {
+        width: 100% !important;
+    }
+    
+    #intro .col:first-child > div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    #intro .col:last-child > img {
+        display: none;
+    }
+}
+
+/* Responsive Sections in Main */
+
+@media screen and (max-width: 600px) {
+    #cashback > .row,
+    #store > .row,
+    #refund > .row,
+    #partnership > .row {
+        width: 100%;
+        width: unset !important;
+        flex-direction: column;
+    }
+}
