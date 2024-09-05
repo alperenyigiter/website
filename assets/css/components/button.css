@@ -1,0 +1,21 @@
+/* Importing Other Files */
+
+@import url("/assets/css/base/color.css");
+
+/* Primary Button */
+
+.primaryBtn {
+    padding: 7.5px 20px;
+    color: var(--tertiary-text-color);
+    background-color: var(--primary-bg-color);
+    border-radius: 50px;
+}
+
+/* Secondary Button */
+
+.secondaryBtn {
+    padding: 7.5px 20px;
+    color: var(--secondary-text-color);
+    background-color: var(--secondary-bg-color);
+    border-radius: 50px;
+}

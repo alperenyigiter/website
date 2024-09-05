@@ -1,0 +1,154 @@
+/* Importing Other Files */
+
+@import url("/assets/css/base/color.css");
+
+@import url("/assets/css/global/header.css");
+@import url("/assets/css/global/footer.css");
+
+/**** FLEX  ****/
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+/**** JC  ****/
+
+.jc-start {
+    justify-content: flex-start;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-end {
+    justify-content: flex-end;
+}
+
+.jc-around {
+    justify-content: space-around;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+
+.jc-evenly {
+    justify-content: space-evenly;
+}
+
+/**** AI  ****/
+
+.ai-start {
+    align-items: flex-start;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ai-end {
+    align-items: flex-end;
+}
+
+/**** GAP  ****/
+
+.g10 {
+    gap: 10px;
+}
+
+.g20 {
+    gap: 20px;
+}
+
+.g30 {
+    gap: 30px;
+}
+
+.g40 {
+    gap: 40px;
+}
+
+.g50 {
+    gap: 50px;
+}
+
+.g60 {
+    gap: 60px;
+}
+
+.g70 {
+    gap: 70px;
+}
+
+.g80 {
+    gap: 80px;
+}
+
+.g90 {
+    gap: 90px;
+}
+
+.g100 {
+    gap: 100px;
+}
+
+/**** WIDTH & HEIGHT  ****/
+
+.full {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w80 {
+    width: 80%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.w10 {
+    width: 10%;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.h80 {
+    height: 80%;
+}
+
+.h60 {
+    height: 60%;
+}
+
+.h40 {
+    height: 40%;
+}
+
+.h20 {
+    height: 20%;
+}
+
+.h10 {
+    height: 10%;
+}

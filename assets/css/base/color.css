@@ -1,0 +1,13 @@
+/* Creating Color Palette */
+
+:root {
+    --headline-color: #000000;
+
+    --primary-text-color: #2d323a;
+    --secondary-text-color: #000000;
+    --tertiary-text-color: #ffffff;
+
+    --primary-bg-color: #212b36;
+    --secondary-bg-color: #eeeeee;
+    --tertiary-bg-color: #00aff0;
+}

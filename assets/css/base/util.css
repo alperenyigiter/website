@@ -1,0 +1,92 @@
+/* Importing Other Files */
+
+@import url("/assets/css/base/color.css");
+
+@import url("/assets/css/components/button.css");
+
+@import url("/assets/css/global/header.css");
+@import url("/assets/css/global/footer.css");
+
+@import url("/assets/vendor/font/font.css");
+@import url("/assets/vendor/icon/icon.css");
+
+/* Layout */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+section {
+    padding: 20px 5%;
+}
+
+/* Headline & Text */
+
+h1 {
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 75px;
+    color: var(--headline-color);
+}
+
+h2 {
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 52.2px;
+    color: var(--primary-text-color);
+}
+
+h3 {
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 52.2px;
+    color: var(--headline-color);
+}
+
+p {
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--primary-text-color);
+}
+
+a {
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+/* Icon */
+
+i {
+    padding: 0px 5px;
+    display: inline-block;
+    transform: translateY(2.5px);
+}
+
+/* List */
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+ul li {
+    list-style: none;
+}

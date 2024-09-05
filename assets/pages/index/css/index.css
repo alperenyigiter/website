@@ -1,0 +1,143 @@
+/* Intro */
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px 0px 50px 50px;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/assets/images/content/intro-bg.png");
+}
+
+#intro .col:first-child > p {
+    width: 50%;
+}
+
+/* Cashback */
+
+#cashback {
+    padding-bottom: 0;
+}
+
+#cashback > .row {
+    background:
+        linear-gradient(
+            135deg,
+            #E8F0FC 35%,
+            #FFFFFF 92%
+        );
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+#cashback .col {
+    flex: 50%;
+}
+
+/* Store */
+
+#store {
+    padding-bottom: 0;
+}
+
+#store > .row {
+    width: 80%;
+    margin: auto;
+}
+
+#store .col {
+    width: 100%;
+    height: 800px;
+    padding: 40px 50px;
+    border-radius: 20px;
+}
+
+#store .col:first-child {
+    flex: 30%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/assets/images/content/partnership-first-col-bg.png");
+}
+
+#store .col:first-child > h2 {
+    color: var(--tertiary-text-color);
+}
+
+#store .col:last-child {
+    flex: 70%;
+    background-color: #F1EC70;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-image: url("/assets/images/content/partnership-second-col-bg.png");
+}
+
+/* Refund */
+
+#refund {
+    padding-bottom: 0;
+}
+
+#refund > .row {
+    width: 80%;
+    margin: auto;
+}
+
+#refund .col {
+    width: 100%;
+    height: 800px;
+    padding: 40px 50px;
+    border-radius: 20px;
+}
+
+#refund .col:first-child {
+    flex: 70%;
+    background-color: #00CCFF;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url("/assets/images/content/refund-first-col-bg.png");
+}
+
+#refund .col:first-child > h2,
+#refund .col:first-child > p {
+    color: var(--tertiary-text-color);
+}
+
+#refund .col:last-child {
+    flex: 30%;
+    background-color: #B1B1B1;
+    background-size: 95%;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-image: url("/assets/images/content/refund-second-col-bg.png");
+}
+
+/* Partnership */
+
+#partnership > .row:first-child {
+    background:
+        linear-gradient(
+            135deg,
+            #BE04C1 35%,
+            #59025B 92%
+        );
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+#partnership .col {
+    flex: 50%;
+}
+
+#partnership .col:first-child > h2 {
+    color: var(--tertiary-text-color);
+}
